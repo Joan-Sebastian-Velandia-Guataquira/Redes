@@ -1,0 +1,58 @@
+$ORIGIN facebook.com.     ; designates the start of this zone file in the namespace
+$TTL 1h                  ; default expiration time of all resource records without their own TTL value
+
+facebook.com.  IN  A     100.0.2.1             ; IPv4 address for facebook.com
+              IN  AAAA  2002:db8:10::1        ; IPv6 address for facebook.com
+pl            IN  A     100.0.2.2             ; IPv4 address for pl.facebook.com
+              IN  AAAA  2002:db8:10::2        ; IPv6 address for pl.facebook.com               
+mail          IN  A     100.0.2.3             ; IPv4 address for mail.facebook.com
+mail2         IN  A     100.0.2.4             ; IPv4 address for mail2.facebook.com
+mail3         IN  A     100.0.2.5             ; IPv4 address for mail3.facebook.com
+
+
+$ORIGIN google.com.      ; designates the start of this zone file in the namespace
+$TTL 1h                  ; default expiration time of all resource records without their own TTL value
+
+google.com.  IN  A      192.0.3.1             ; IPv4 address for google.com
+              IN  AAAA  ::ffff:c000:301       ; IPv6 address for google.com
+ns            IN  A     192.0.3.2             ; IPv4 address for ns.google.com
+              IN  AAAA  ::ffff:c000:302       ; IPv6 address for ns.google.com
+mail4         IN  A     192.0.3.3             ; IPv4 address for mail4.google.com
+mail5         IN  A     192.0.3.4             ; IPv4 address for mail5.google.com
+mail6         IN  A     192.0.3.5             ; IPv4 address for mail6.google.com
+
+
+$ORIGIN rtve.es.         ; designates the start of this zone file in the namespace
+$TTL 1h                  ; default expiration time of all resource records without their own TTL value
+
+rtve.es.      IN  A     192.0.4.1             ; IPv4 address for rtve.es
+              IN  AAAA  ::ffff:c000:401       ; IPv6 address for rtve.es
+nts           IN  A     192.0.4.2             ; IPv4 address for nts.rtve.es
+              IN  AAAA  ::ffff:c000:402       ; IPv6 address for nts.rtve.es
+mail7         IN  A     192.0.4.3             ; IPv4 address for mail7.rtve.es
+mail8         IN  A     192.0.4.4             ; IPv4 address for mail8.rtve.es
+mail9         IN  A     192.0.4.5             ; IPv4 address for mail9.rtve.es
+
+
+$ORIGIN eltiempo.com.    ; designates the start of this zone file in the namespace
+$TTL 1h                  ; default expiration time of all resource records without their own TTL value
+
+eltiempo.com. IN  A     192.0.5.1             ; IPv4 address for eltiempo.com
+              IN  AAAA  ::ffff:c000:501       ; IPv6 address for eltiempo.com
+nw            IN  A     192.0.5.2             ; IPv4 address for nw.eltiempo.com
+              IN  AAAA  ::ffff:c000:502       ; IPv6 address for nw.eltiempo.com
+mail10        IN  A     192.0.5.3             ; IPv4 address for mail10.eltiempo.com
+mail11        IN  A     192.0.5.4             ; IPv4 address for mail11.eltiempo.com
+mail12        IN  A     192.0.5.5             ; IPv4 address for mail12.eltiempo.com
+
+
+$ORIGIN wplay.co.        ; designates the start of this zone file in the namespace
+$TTL 1h                  ; default expiration time of all resource records without their own TTL value
+
+wplay.co.     IN  A     192.0.6.1             ; IPv4 address for wplay.co
+              IN  AAAA  ::ffff:c000:601       ; IPv6 address for wplay.co
+msa           IN  A     192.0.6.2             ; IPv4 address for msa.wplay.co
+              IN  AAAA  ::ffff:c000:602       ; IPv6 address for msa.wplay.co
+mail13        IN  A     192.0.6.3             ; IPv4 address for mail13.wplay.co
+mail14        IN  A     192.0.6.4             ; IPv4 address for mail14.wplay.co
+mail15        IN  A     192.0.6.5             ; IPv4 address for mail15.wplay.co
